@@ -28,7 +28,7 @@ const Decoder = ({ dtmf }: Props) => {
     return (
         <>
             <Typography gutterBottom>
-                You can capture the sound of your microphone. You should use a different device to generate the tones.
+                You can capture the sound through the microphone. You should use a different device to generate the tones.
             </Typography>
             <Container maxWidth="xs">
                 <Button fullWidth variant="contained" onClick={() => dtmf.captureDTMF(decodeCallback)}>Capture Audio</Button>
